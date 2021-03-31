@@ -1,0 +1,136 @@
+#include<iostream>
+using namespace std;
+void main()
+{
+	float a, b, c;
+	char x;
+	char y;
+	cout << "Please enter First number : ";
+	cin >> a;
+	cout << "Please enter Operation : ";
+	cin >> x;
+	cout << "Please enter Second number : ";
+	cin >> b;
+	cout << "Please enter Operation : ";
+	cin >> y;
+	cout << "Please enter Third number : ";
+	cin >> c;
+	float addition = a + b;
+	float subtraction = a - b;
+	float multiplication = a * b;
+	float division = a / b;
+	if (x == '+')
+	{
+		if (y == '+')
+		{
+			float adding = addition + c;
+			cout << a << x << b << y << c << "=";
+			cout << adding;
+		}
+		else if (y == '-')
+		{
+			float subtracting = addition - c;
+			cout << a << x << b << y << c << "=";
+			cout << subtracting;
+		}
+		else if (y == '*')
+		{
+			float multiplying = addition * c;
+			cout << a << x << b << y << c << "=";
+			cout << multiplying;
+		}
+		else if (y == '/')
+		{
+			float dividing = addition / c;
+			cout << a << x << b << y << c << "=";
+			cout << dividing;
+		}
+	}
+	if (x == '-')
+	{
+		if (y == '+')
+		{
+			float adding2 = subtraction + c;
+			cout << a << x << b << y << c << "=";
+			cout << adding2;
+		}
+		else if (y == '-')
+		{
+			float subtracting2 = subtraction - c;
+			cout << a << x << b << y << c << "=";
+			cout << subtracting2;
+		}
+		else if (y == '*')
+		{
+			float multiplying2 = subtraction * c;
+			cout << a << x << b << y << c << "=";
+			cout << multiplying2;
+		}
+		else if (y == '/')
+		{
+			float division2 = subtraction / c;
+			cout << a << x << b << y << c << "=";
+			cout << division2;
+		}
+
+	}
+	if (x == '*')
+	{
+		if (y == '+')
+		{
+			float addition3 = multiplication + c;
+			cout << a << x << b << y << c << "=";
+			cout << addition3;
+		}
+		else if (y == '-')
+		{
+			float subtracting3 = multiplication - c;
+			cout << a << x << b << y << c << "=";
+			cout << subtracting3;
+		}
+		else if (y == '*')
+		{
+			float multiplying3 = multiplication * c;
+			cout << a << x << b << y << c << "=";
+			cout << multiplying3;
+		}
+		else if (y == '/')
+		{
+			float division3 = multiplication / c;
+			cout << a << x << b << y << c << "=";
+			cout << division3;
+		}
+
+	}
+	if (x == '/')
+	{
+
+		if (y == '+')
+		{
+			float addition4 = division + c;
+			cout << a << x << b << y << c << "=";
+			cout << addition4;
+		}
+		else if (y == '-')
+		{
+			float subtracting4 = division - c;
+			cout << a << x << b << y << c << "=";
+			cout << subtracting4;
+		}
+		else if (y == '*')
+		{
+			float multiplying4 = division * c;
+			cout << a << x << b << y << c << "=";
+			cout << multiplying4;
+		}
+		else if (y == '/')
+		{
+			float dividing4 = division / c;
+			cout << a << x << b << y << c << "=";
+			cout << dividing4;
+		}
+	}
+	cout << endl;
+	system("pause");
+
+}
